@@ -1,0 +1,15 @@
+{
+  "name": "inventory-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server exposing inventory management tools, backed by the Express REST API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.6.2"
+  }
+}
